@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Facebok_UI"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="Facebok_UI.MainPage"
+             BackgroundColor="#E0E0E0">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="plainButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#eee"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="BorderRadius" Value="0"/>
+                <Setter Property="FontSize" Value="15" />
+            </Style>
+            <Style x:Key="darkerButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#ddd"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="BorderRadius" Value="0"/>
+                <Setter Property="FontSize" Value="15" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+        <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem1" Order="Primary" Icon="ic_search_white_24dp.png" 
+                     Text="Item 1" Priority="0" />
+        <ToolbarItem Text ="News Feed" Priority="2" Order="Primary" />   
+        <ToolbarItem Name="" Order="Primary" Priority="1" />
+        <ToolbarItem Name="" Order="Primary" Priority="2" />
+        <ToolbarItem Name="" Order="Primary" Priority="3" />
+        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="ic_search_white_24dp.png" 
+                     Text="Item 2" Priority="4" />
+        <ToolbarItem Name="" Order="Primary" Priority="5" />
+
+    </ContentPage.ToolbarItems>
+
+
+    <Grid x:Name="controlGrid" RowSpacing="0" ColumnSpacing="0"  Margin="10,0,10,0" >
+        
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="50" />
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinitionCollection>
+                <ColumnDefinition Width="*"/>
+            </ColumnDefinitionCollection>
+        </Grid.ColumnDefinitions>
+
+        <!--Label Text="0" Grid.Row="0" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="White"
+               FontSize="60"  /-->
+        <Button Text = "Status" Grid.Row="0" Grid.Column="0" FontSize="12"
+                Style="{StaticResource darkerButton}" 
+                Image="ic_launch_black_24dp.png"/>
+
+        <Button Text = "Photo" Grid.Row="0" Grid.Column="1"  FontSize="12"
+                Style="{StaticResource darkerButton}" 
+                Image="ic_add_a_photo_black_24dp.png"/>
+
+        <Button Text = "Check in" Grid.Row="0" Grid.Column="2"  FontSize="12"
+                Style="{StaticResource darkerButton}" 
+                Image="ic_location_on_black_24dp.png"/>
+
+
+        <Grid Grid.Row="2" Grid.ColumnSpan="3" RowSpacing="0" ColumnSpacing="0" 
+              Padding="10,0,10,0" BackgroundColor="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="4*" />
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="auto" />
+  
+            </Grid.RowDefinitions>
+
+            <Label Text="Suggested Item"   Grid.Row="0"  Grid.ColumnSpan="2" TextColor="#9E9E9E"/>
+
+            <StackLayout Grid.Column="0"  Grid.Row="1"  Grid.RowSpan="2" >
+                <Image Source="icon.png"/>
+            </StackLayout>
+
+
+            <Label Text="J. Sommerfields"  FontSize="16"   FontAttributes="Bold"
+                   Grid.Column="1"  Grid.Row="1"/>
+            
+            <Label Text="With the J. Sommerfield App, the latest books are always at your fingertips " TextColor="#000000" 
+                   Grid.Column="0"  Grid.Row="3"  Grid.ColumnSpan="2" />
+            
+            <Label Text="Sponsored" 
+                   Grid.Column="1"  Grid.Row="2" />
+
+            <StackLayout  Grid.Column="0"  Grid.Row="4"  Grid.ColumnSpan="2" >
+                 <Image Source="shop.jpg" />
+            </StackLayout>
+      <!--  <BoxView Color="Lime"   Grid.Column="0"  Grid.Row="0"   Grid.RowSpan="2" />
+            <BoxView Color="Purple" Grid.Column="1"  Grid.Row="0" />
+            <BoxView Color="Aqua"   Grid.Column="0"  Grid.Row="2"   Grid.ColumnSpan="2" />
+            <BoxView Color="Gray"   Grid.Column="1"  Grid.Row="1" />
+            <BoxView Color="Maroon" Grid.Column="0"  Grid.Row="3"   Grid.ColumnSpan="2" />
+          -->
+            
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.ColumnSpan="3" RowSpacing="0" ColumnSpacing="0" BackgroundColor="#EEEEEE" 
+              Padding="10,0,10,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                
+            </Grid.RowDefinitions>
+
+
+            <Label Text="J.Sommerfields" FontAttributes="Bold" FontSize="16"
+                   Grid.Column="0"  Grid.Row="0" />
+
+            <Label Text="Open in App" 
+                   Grid.Column="0"  Grid.Row="1"/>
+
+
+            <Button Text="Shop Now" WidthRequest="35" HeightRequest="15" FontSize="12" FontAttributes="Bold"
+                   Grid.Column="1"  Grid.Row="0"  Grid.RowSpan="2"/>
+
+          <!--  <BoxView Color="Lime"   Grid.Column="0"  Grid.Row="0" />
+            <BoxView Color="Purple" Grid.Column="0"  Grid.Row="1" />
+            <BoxView Color="Gray"   Grid.Column="1"  Grid.Row="0"   Grid.RowSpan="2"/>
+            -->
+
+        </Grid>
+    </Grid>
+    
+    
+    <!--
+    <Grid>
+
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="Aqua">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Text="Inside First" />
+            <Label Grid.Row="1" Grid.Column="0" Text="Inside Second" />
+        </Grid>
+
+        <Label Grid.Row="1" Grid.Column="0" Text="Outside Second" />
+    </Grid>
+        
+        -->
+
+</ContentPage>

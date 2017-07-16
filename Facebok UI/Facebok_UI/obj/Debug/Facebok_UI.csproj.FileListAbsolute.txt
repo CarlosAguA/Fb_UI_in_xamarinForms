@@ -1,0 +1,15 @@
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Facebok_UI.dll
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Facebok_UI.pdb
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\obj\Debug\Facebok_UI.csprojResolveAssemblyReference.cache
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\obj\Debug\Facebok_UI.MainPage.xaml.g.cs
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\obj\Debug\Facebok_UI.App.xaml.g.cs
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\obj\Debug\Facebok_UI.dll
+c:\users\paviliondm4\documents\visual studio 2017\Projects\Facebok UI\Facebok UI\Facebok_UI\obj\Debug\Facebok_UI.pdb
